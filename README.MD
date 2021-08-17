@@ -1,4 +1,4 @@
-**Cities API** is a Spring Api to management states, country and city.
+**Cities API** is a Spring Api to management states, countries and cities.
 
 # Team:
 
@@ -13,18 +13,9 @@
 ## Database
 
 ```bash
-git clone https://github.com/codenation-dev/squad-1-ad-nodejs-kroton-1
-cd squad-1-ad-nodejs-kroton-1
-npm install
-docker-compose up -d
-npm sync
-npm start
-```
+Start docker container with PostgreSQL
 
-## Database
-
-```bash
-docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
+$ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
 ```
 
 ## Available Endpoints
