@@ -13,9 +13,11 @@
 ## Database
 
 ```bash
-Start docker container with PostgreSQL
+Its possible to run a postgreSQL in your host or start docker container with PostgreSQL using the following command?
 
 $ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
+
+* Attention to user and password parameters
 ```
 
 ## Available Endpoints
