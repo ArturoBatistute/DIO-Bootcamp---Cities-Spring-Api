@@ -22,6 +22,7 @@ Its possible to run a postgreSQL in your host or start docker container with Pos
 $ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
 
 * Attention to user and password parameters
+* In the application properties we are populating the database automatically when starting the project
 ```
 
 ## Available Endpoints
