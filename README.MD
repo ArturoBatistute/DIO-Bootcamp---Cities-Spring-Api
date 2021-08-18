@@ -2,7 +2,7 @@
     <img width="500" height="auto" src="dio.png" alt="PHP Censor" />
 </p>
 
-**Cities API** is a Spring Api to management states, countries and cities.
+**Cities API** is a Java Spring Boot API to management states, countries and cities.
 
 # Team:
 
